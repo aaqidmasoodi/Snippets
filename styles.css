@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* CAMEL CASING */
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginFormContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 350px;
+    height: 450px;
+    background-color: lightgray;
+    padding: 30px;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.inputDiv {
+    height: 60px;
+    background-color: #818181;
+}
+
+.submitBtnContainer {
+    height: 50px;
+    background-color: #818181;
+}
