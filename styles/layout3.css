@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+
+.container {
+    background-color: lightgray;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 15px;
+
+}
+
+.imageContainer {
+    height: 150px;
+    background-color: white;
+}
+
+.authorTimeContainer {
+    display: flex;
+    justify-content: space-between;
+
+}
